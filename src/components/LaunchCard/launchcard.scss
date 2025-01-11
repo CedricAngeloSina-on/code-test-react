@@ -1,0 +1,91 @@
+.launch-card {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.launch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.launch-button-details {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 12px;
+}
+
+.launch-info {
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 8px;
+    }
+}
+
+.rocket-name,
+.launch-date {
+    color: #666;
+    margin-right: 4px;
+}
+
+.launch-status {
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    &.success {
+        background-color: #e6f4ea;
+        color: #1e7e34;
+    }
+
+    &.upcoming {
+        background-color: #cce5ff;
+        color: #004085;
+    }
+
+    &.failed {
+        background-color: #fde7e9;
+        color: #dc3545;
+    }
+}
+
+.launch-details {
+    margin-top: 12px;
+    color: #555;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.launch-patch {
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.launch-patch img {
+    max-width: 100px;
+    border-radius: 8px;
+}
+
+.launch-details p {
+    margin-top: 12px;
+    margin-left: 12px;
+}
